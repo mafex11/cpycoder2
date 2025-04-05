@@ -60,7 +60,7 @@ Only these folders will be scanned. If they don’t exist, they’ll be skipped.
 vsce package
 
 # Step 2: Install the VSIX file
-code --install-extension cpycoder-0.0.2.vsix
+code --install-extension cpycoder-0.0.3.vsix
 ```
 
 ### From Marketplace
