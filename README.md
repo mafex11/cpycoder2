@@ -60,11 +60,11 @@ Only these folders will be scanned. If they don’t exist, they’ll be skipped.
 vsce package
 
 # Step 2: Install the VSIX file
-code --install-extension cpycoder-0.0.1.vsix
+code --install-extension cpycoder-0.0.2.vsix
 ```
 
 ### From Marketplace
-> _Coming soon: Will be available on the VS Code Marketplace_
+>[Marketplace]([https://marketplace.visualstudio.com/items?itemName=yourpublisher.cpycoder](https://marketplace.visualstudio.com/items?itemName=Mafex.cpycoder&ssr=false#overview))
 
 ---
 
@@ -84,6 +84,7 @@ No user settings yet — but future versions will allow customization for:
 - Folder inclusion/exclusion patterns
 - File types
 - Output format
+- Directory Tree
 
 ---
 
@@ -91,7 +92,7 @@ No user settings yet — but future versions will allow customization for:
 
 Found a bug or have a feature request?
 
-- 🐛 Report issues: [GitHub Issues](https://github.com/your-username/cpycoder/issues)
+- 🐛 Report issues: [GitHub Issues](https://github.com/mafex11/cpycoder2/issues)
 - 💬 Suggest features or ask questions
 - 🤝 Pull requests welcome!
 
@@ -99,11 +100,11 @@ Found a bug or have a feature request?
 
 ## 📬 Contact
 
-Created with ❤️ by [Your Name]
+Created with ❤️ by Mafex
 
-- GitHub: [github.com/your-username](https://github.com/your-username)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- Email: you@example.com
+- GitHub: [github.com/mafex11](https://github.com/mafex11)
+- Twitter: [@mafexuwu](https://twitter.com/mafexuwu)
+- Email: sudhanshuk1140@gmail.com
 
 ---
 
@@ -120,6 +121,12 @@ This project is licensed under the [MIT License](./LICENSE).
 - Clipboard copy
 - File list output
 - Skipping ignored files
+
+### v0.0.2 - Initial Release
+- Added ReadME
+- Bug Fixes
+
+
 
 Stay tuned for more improvements!
 
