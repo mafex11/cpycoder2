@@ -64,7 +64,7 @@ code --install-extension cpycoder-0.0.3.vsix
 ```
 
 ### From Marketplace
->[Marketplace]([https://marketplace.visualstudio.com/items?itemName=yourpublisher.cpycoder](https://marketplace.visualstudio.com/items?itemName=Mafex.cpycoder&ssr=false#overview))
+[Marketplace](https://marketplace.visualstudio.com/items?itemName=Mafex.cpycoder&ssr=false#overview)
 
 ---
 
