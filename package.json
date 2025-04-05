@@ -1,0 +1,26 @@
+{
+  "name": "cpycoder",
+  "displayName": "cpycoder",
+  "description": "Copy important project code for AI tools",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onCommand:extension.copyImportantFiles"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.copyImportantFiles",
+        "title": "Copy Important Project Files"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.99.0",
+    "@types/node": "20.x"
+  }
+}
