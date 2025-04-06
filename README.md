@@ -126,6 +126,20 @@ This project is licensed under the [MIT License](./LICENSE).
 - Added ReadME
 - Bug Fixes
 
+### v0.0.3 - Initial Release
+- Added logo
+- Added way to select files individually
+- Bug Fixes
+
+### v0.0.4 - Initial Release
+- Added way to select files and folders individually
+- Added directory viewer in VScode explorer page
+- New Ui/Ux
+- Bug Fixes
+
+### v0.0.5 - Initial Release
+- Bug Fixes
+
 
 
 Stay tuned for more improvements!
