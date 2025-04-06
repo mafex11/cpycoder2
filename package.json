@@ -1,8 +1,8 @@
 {
   "name": "cpycoder",
   "displayName": "cpycoder",
-  "description": "Copy important project code for AI tools",
-  "version": "0.0.3",
+  "description": "Copy important project code (with dependencies) for AI tools or sharing.",
+  "version": "0.0.6",
   "publisher": "mafex",
   "icon": "icon.png",
   "repository": {
@@ -16,19 +16,51 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.copyImportantFiles"
+    "onCommand:cpycoder.copySelectedFiles",
+    "onView:cpycoderFileTree"
   ],
   "main": "./extension.js",
   "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "id": "cpycoderFileTree",
+          "name": "CpyCoder File Picker"
+        }
+      ]
+    },
     "commands": [
       {
-        "command": "extension.copyImportantFiles",
-        "title": "Copy Important Project Files"
+        "command": "cpycoder.selectFile",
+        "title": "CpyCoder: Select File to Copy"
+      },
+      {
+        "command": "cpycoder.copySelectedFiles",
+        "title": "CpyCoder: Copy Selected Files"
+      },
+      {
+        "command": "cpycoder.clearSelection",
+        "title": "CpyCoder: Clear File Selection"
+      },
+      {
+        "command": "cpycoder.refreshTree",
+        "title": "CpyCoder: Refresh File Tree"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "cpycoder.copySelectedFiles",
+        "key": "ctrl+shift+c",
+        "when": "explorerViewletVisible"
       }
     ]
   },
   "devDependencies": {
     "@types/node": "20.x",
     "@types/vscode": "^1.90.0"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.27.0",
+    "@babel/traverse": "^7.27.0"
   }
 }
